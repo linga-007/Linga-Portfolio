@@ -1,9 +1,13 @@
 import Image from "next/image";
+import Header from "./ui/header";
+import Intro from "./ui/intro";
 
 export default function Home() {
   return (
-    <main>
-      <div className="bg-black">hello</div>
-    </main>
+    <>
+    <Header/>
+    <Intro/>
+    helo
+    </>
   );
 }
