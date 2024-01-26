@@ -4,7 +4,7 @@ import linga from "./lingaimg.png"
 
 const intro = () => {
   return (
-    <div className='flex justify-between mx-32 p-12  h-[650px] '>
+    <div className='flex justify-between mx-24 p-12  h-[650px] '>
       <div className='flex text-slate-800 gap-8 pt-16 w-[40%] flex-col '>
         <div className='text-black font-bold text-5xl gap-5 flex flex-col'>
           <h2>Hello, I'm</h2>
@@ -12,7 +12,7 @@ const intro = () => {
           <h3>and Developer</h3>
         </div>
         <div>A dedicated Developer with a passion for creating digital experiences that not only look beautiful but also funtion seemlessly.</div>
-        <button className='text-white w-32 h-12 rounded-3xl bg-black'>Get Started</button>
+        <button className='text-white w-32 h-12 rounded-3xl bg-black hover:scale-110  transition duration-500'>Get Started</button>
       </div>
       <div className='pr-10'>
         <Image src={linga} width={450} height={450} alt='img' className='rounded-full bg-[#FFB321]'></Image>
